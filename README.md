@@ -68,7 +68,7 @@ PATCH /api/books/avail/{id}
 
 ## Testing with Postman
 
-[![Run in Postman](https://www.postman.com/prasadboy17/workspace/public/collection/42398638-5ce8481e-192d-4eee-b6cd-4f4435949c71?action=share&creator=42398638)
+[![Run in Postman](https://www.postman.com/prasadboy17/workspace/public/collection/42398638-5ce8481e-192d-4eee-b6cd-4f4435949c71?action=share&creator=42398638)]
 
 2. Use the sample requests to test all endpoints.
 
