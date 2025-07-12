@@ -6,6 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import com.prasad.library.Service.BookService;
+import com.prasad.library.dto.AvailabilityUpdateDTO;
 import com.prasad.library.dto.BookRequestDTO;
 import com.prasad.library.dto.BookResponseDTO;
 
@@ -40,9 +41,11 @@ public class BookController {
         return ResponseEntity.ok(book);
     }
 
-    @PatchMapping("/avial/{id}")
-    public ResponseEntity<?> updateAvailability(@PathVariable Integer id, @RequestParam Boolean available) {
-        return bookService.updateAvailabilityById(id, available);
+    @PatchMapping("/avail/{id}")
+    public ResponseEntity<?> updateAvailability(
+            @PathVariable Integer id,
+            @RequestBody AvailabilityUpdateDTO updateDTO) {
+        return bookService.updateAvailabilityById(id, updateDTO.getAvailable());
     }
 
     @DeleteMapping("/{id}")
