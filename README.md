@@ -68,7 +68,8 @@ PATCH /api/books/avail/{id}
 
 ## Testing with Postman
 
-1. Import the provided Postman collection (see [![Run in Postman](https://.postman.co/workspace/Testing~79d4edcf-3954-4037-8940-bb3e29610160/collection/42398638-5ce8481e-192d-4eee-b6cd-4f4435949c71?action=share&creator=42398638)] if available).
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://postman.com/collections/42398638-5ce8481e-192d-4eee-b6cd-4f4435949c71?action=share&workspace=79d4edcf-3954-4037-8940-bb3e29610160)
+
 2. Use the sample requests to test all endpoints.
 
 <!-- *To generate a Postman collection link:*
