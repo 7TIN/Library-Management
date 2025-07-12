@@ -47,7 +47,7 @@ This RESTful API allows you to manage books: add, view, update availability, and
 | POST   | `/api/books`                   | Add a new book                       |
 | GET    | `/api/books`                   | Get all books                        |
 | GET    | `/api/books/{id}`              | Get book by ID                       |
-| PATCH  | `/api/books/{id}/availability` | Update book availability             |
+| PATCH  | `/api/books/avail/{id}`        | Update book availability             |
 | DELETE | `/api/books/{id}`              | Delete book by ID                    |
 
 ### Example JSON for Adding a Book
